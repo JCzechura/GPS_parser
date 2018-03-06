@@ -1,6 +1,6 @@
 # GPS module Library
 
-Niniejsze repozytorium zawiera bibliotekę stworzoną do obsługi modułu GPS podłączonego do mikrokontrolera. Dane odberane są przez moduł szeregowo w postaci znaków ASCII. Tworzą sentencje o powtarzającym się schemacie i długości nie większej niż 82 znaki. Każde zdanie rozpoczyna się znakiem ‘$’, po nim następuje wysłanie przedrostka charakteryzującego typ urządzenia a następnie odpowiedniego identyfikatora, który określa zawartość wiadomości. Po nim przesyłane są dane oddzielone od siebie przecinkami. Na końcu znajduje się suma kontrolna oraz znaki <CR><LF> (carriage return, line feed).
+Niniejsze repozytorium zawiera bibliotekę stworzoną do obsługi modułu GPS podłączonego do mikrokontrolera. Dane odbierane są przez moduł szeregowo w postaci znaków ASCII. Tworzą sentencje o powtarzającym się schemacie i długości nie większej niż 82 znaki. Każde zdanie rozpoczyna się znakiem ‘$’, po nim następuje wysłanie przedrostka charakteryzującego typ urządzenia a następnie odpowiedniego identyfikatora, który określa zawartość wiadomości. Po nim przesyłane są dane oddzielone od siebie przecinkami. Na końcu znajduje się suma kontrolna oraz znaki <CR><LF> (carriage return, line feed).
 
 W niniejszym projekcie wykorzystano następujące rodzaje zdań: 
 
